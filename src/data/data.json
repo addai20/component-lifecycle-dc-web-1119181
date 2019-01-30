@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "wake up"
+    },
+    {
+      "id": 2,
+      "text": "eat lunch"
+    },
+    {
+      "id": 3,
+      "text": "go to sleep"
+    }
+  ]
+}
