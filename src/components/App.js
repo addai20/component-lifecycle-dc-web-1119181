@@ -15,6 +15,7 @@ class App extends Component {
       formText: '',
       taskList: sampleTasks
     }
+    console.warn('App constructor()')
   }
 
   onTypingChange = (event) => {
@@ -29,6 +30,7 @@ class App extends Component {
   }
 
   render() {
+    console.warn('App render()')
     return (
       <div className="App">
         <Form onChange={this.onTypingChange} onSubmit={this.onAddNewTask}/>

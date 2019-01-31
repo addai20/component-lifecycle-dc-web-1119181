@@ -6,9 +6,11 @@ class Task extends React.Component {
     this.state = {
       done: props.task.done
     }
+    console.warn('Task constructor()')
   }
 
   render(){
+    console.warn('Task render()')
     return(
       <div>
         <button>x</button>
